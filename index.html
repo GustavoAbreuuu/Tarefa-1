@@ -1,34 +1,35 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="ico">
-    <title>Atividade 1</title>
-    <style>@import url(estilo1.CSS);</style>
+    <style>@import url(estilo.css);</style>
+    <title>Tabela de informações</title>
 </head>
 <body>
-    <h1>A1 -Usabilidade, desenvolvimento web, mobile e jogos</h1>
-    <img src="logoUnisul.jpg" alt="Logo unisul">
-    <p>Tempo de prova 3 horas.</p>
-    <h2>Cadastro</h2>
+    <h1>Feedback - Avaliação 1</h1>
+    <h2>Perguntas Frequentes:</h2>
+    <table border="1">
+        <tr>
+        <td>Onde vejo meu RA?</td>
+        <td>Posso colocar meu email pessoal?</td>
+        <td>Quanto tempo de prova?</td>
+        </tr>
+        <tr>
+            <td>O RA do estudante está no email, no qual foi mandado pela instituição. </td>
+            <td>Não, é necessário o email da instituição.</td>
+            <td>A prova possui 3 horas de duração.</td>
+        </tr>
+    </table>
     <form>
-        <label for="idnome">Nome:</label>
-        <input type="text" id="idnome" name="idnome"> <br>
-        <label for="idcurso">Curso:</label>
-        <input type="text" id="idcurso" name="idcurso"> <br>
-        <label for="idRA">RA:</label>
-        <input type="number" name="idRA" id="idRA"> <br>
-        <h3>Assinale qual semestre você esta cursando</h3>
-        <input type="radio" id="1º" name="fav_language" value="1º">
-        <label for="1º">1º</label><br>
-        <input type="radio" id="2º" name="fav_language" value="2º">
-        <label for="2º">2º</label><br>
-        <input type="radio" id="3º" name="fav_language" value="3º">
-        <label for="3º">3º</label><br><br>
-        <input type="submit" value="Confirmar">
-   </form>  
-   <br>
-   <a href="file:///C:/Users/capri/OneDrive/Imagens/Capturas%20de%20tela/Documentos/Curso%20HTML/html%20-%20css/Tarefa%20A3/Tabela%20de%20informa%C3%A7%C3%B5es/index.html" target="_blank"><img src="Feedback400.jpg" alt="Feedback"></a>
+    <h2>Como você avalia nossa Atividade 1?</h2>  
+    <input type="radio" id="Nada satisfeito" name="fav_language" value="Nada satisfeito">
+    <label for="Nada satisfeito">Nada satisfeito</label><br>
+    <input type="radio" id="Razoável" name="fav_language" value="Razoável">
+    <label for="Razoável">Razoável</label><br>
+    <input type="radio" id="Muito satisfeito" name="fav_language" value="Muito satisfeito">
+    <label for="Muito satisfeito">Muito satisfeito</label><br><br>
+    <input type="submit" value="Enviar">
+    </form>
 </body>
 </html>
